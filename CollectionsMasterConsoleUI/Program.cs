@@ -137,7 +137,7 @@ namespace CollectionsMasterConsoleUI
             {
                 if (numbers[i] % 3 == 0)
                 {
-                    numbers[1] = 0;
+                    numbers[i] = 0;
                 }
             }
             NumberPrinter(numbers);
